@@ -177,16 +177,16 @@
 				},
 				skiContent: {
 					CN: [
-						"熟悉Javascript/HTML5/CSS3/SASS",
+						"熟悉Javascript/HTML5/CSS3",
 						"前端框架VueJs, Vuex及ReactJs開發經驗",
 						"熟悉Git版本控制",
 						"熟悉Webpack打包工具及npm插件",
 						"具備RESTful API串接經驗",
-						"了解Microsoft .Net Framework",
+						"有Microsoft .Net Framework的開發經驗",
 						"基礎後端nodeJs, MSSQL資料庫概念",
 					],
 					EN: [
-						"Strong Javascript/HTML5/CSS3/SASS skills.",
+						"Strong Javascript/HTML5/CSS3 skills.",
 						"Extensive experience in JavaScript and other clientside technologies, including modern JavaScript libraries and frameworks(VueJs, ReactJs).",
 						"Experienced in working in a GIT based version-control environment.",
 						"Familiar with Webpack module bundler and npm plugin.",
@@ -240,10 +240,6 @@
 					},
 				],
 			};
-		},
-		mounted() {
-			// console.log(this.bioContent.CN);
-			// console.log(this.eduContent);
 		},
 	};
 </script>

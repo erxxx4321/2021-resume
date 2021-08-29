@@ -27,4 +27,13 @@
 		--secondary: #f5f5f5;
 		--dark: #c6c1c1;
 	}
+
+	@media screen and (-webkit-min-device-pixel-ratio: 0) {
+		select,
+		textarea,
+		input {
+			font-size: 16px;
+			background: #fff;
+		}
+	}
 </style>
